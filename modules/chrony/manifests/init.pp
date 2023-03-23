@@ -1,5 +1,5 @@
 # chrony/manifests/init.pp
-class chrony  {
+class chrony::chrony  {
   package { 'chrony':
     ensure => 'installed',
   }
